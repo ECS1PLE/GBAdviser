@@ -1,0 +1,70 @@
+.find>svg:hover{
+    cursor:pointer;
+}
+
+.user_dropdown_wrapper>img:hover{
+    transform: rotate(180deg);
+    cursor:pointer;
+}
+
+.block_of_buttons:hover{
+    background-color: #D7DBEC;
+    cursor: pointer;
+}
+
+.scroller__block>p:after{
+    content:"";
+    display:block;
+    position:absolute;
+    bottom:-5px;
+    border-radius:100px;
+    height:2px;
+    transition:0.3s;
+    right:0;
+    width:0;
+    margin:0 auto;
+    left:0;
+    background-color:#437EF7;
+}
+
+
+.scroller__block>p:hover{
+    cursor: pointer;
+}
+
+.scroller__block>p:hover:after{
+    width:100%;
+}
+
+.scroller__block>p:active:after{
+    width:100%;
+}
+.answers>button:hover{
+    background-color: #D7DBEC;
+}
+
+.join__us>a:hover{
+    cursor: pointer;
+}
+  
+.jello{
+    margin: 0 0.5rem;
+    animation: jello; 
+    animation-duration: 2s;
+}
+
+.bottom__content>h4:hover{
+    cursor: pointer;
+}
+
+.back:hover{
+    cursor: pointer;
+}
+
+.answers>button:active{
+    scale: 0.9;
+}
+
+.block_of_buttons:active{
+    scale: 0.9;
+}

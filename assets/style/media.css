@@ -1,0 +1,79 @@
+@media screen and (max-width:600px){
+
+    .nav__bar{
+        flex-direction: column;
+    }
+
+    .main_content{
+        flex-direction: column;
+    }
+
+    .right__content{
+        flex-direction: column;
+    }
+
+    .blocks__join__us{
+        flex-direction: column;
+        gap:5px;
+    }
+
+    .join__us{
+        width:100%;
+    }
+
+    .razdelitel__settings{
+        margin:40px auto 0px auto !important;
+        width:90%;
+    }
+
+    .recomendations__extra{
+        width:90%;
+        margin: 5px auto;
+        height:auto;
+    }
+
+    .recomendations__extra>p{
+        line-height: 20px;
+    }
+
+    .profile__settings{
+        margin: 0 auto;
+    }
+
+    .dop__razdelitel{
+        width:90%;
+        margin:40px auto 0px auto !important;
+    }
+
+    .search{
+        width:100%;
+        margin:0 auto;
+    }
+
+    .brand{
+        width:60%;
+        height:100px;
+        margin:0 auto;
+    }
+
+    .user_info{
+        margin-top:20px;
+    }
+
+    .ring__mess{
+        display: none;
+    }
+
+    .user_card>p{
+        font-size: 11px;
+    }
+
+    .user_info{
+        margin-left:auto;
+        margin-right:auto
+    }
+
+    .nav__bar>.search{
+        width:77%;
+    }
+}

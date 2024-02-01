@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/style/style.css">
+        <link rel="stylesheet" href="assets/style/media.css">
+        <link rel="stylesheet" href="assets/style/variables.css">
+        <link rel="stylesheet" href="assets/style/animate.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    </head>
+    <body>
+        <div class="cont flex">
+            <div class="nav__bar flex">
+                <div class="brand flex">
+                    <img src="assets/img/logo.svg">
+                </div>
+                <div class="search flex">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input class="form-control mr-sm-2 no-border" type="search" placeholder="Поиск....">
+                </div>
+                <div id="dropdown__user" class="user_info flex">
+                    <div class="icons_user flex">
+                        <img src="assets/img/message.svg">
+                        <div class="icon__with__mess flex">
+                            <img src="assets/img/ring.svg">
+                            <div class="ring__mess">
+                                5
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user_card flex">
+                        <img src="assets/img/avatar.svg">
+                        <p>Саша Смелая</p>
+                        <div class="user_dropdown_wrapper flex">
+                            <img src="assets/img/dropdown.svg">
+                            <div class="dropdown__info invisible flex">
+                                <div class="top__color">
+                                    <img src="assets/img/avatar.svg">
+                                </div>
+                                <div class="bottom__content flex">
+                                    <p>Саша Смелая</p>
+                                    <h3>Я люблю петь, рисовать, читать книги.</h3>
+                                    <h4>Log out</h4>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="main_container flex">
+            <div class="main_content flex">
+                <div class="nav_bar_left flex">
+                    <div id="main-settings" class="block_with_buttons flex" id="block_with_buttons">
+                        <div class="block_of_buttons flex">
+                            <img src="assets/img/house.svg">
+                            <p>Главная</p>
+                        </div>
+                        <div class="block_of_buttons flex">
+                            <img src="assets/img/list.svg">
+                            <p>Запросы</p>
+                            <div class="count">
+                                16
+                            </div>
+                        </div>
+                        <div class="block_of_buttons flex">
+                            <img src="assets/img/mark.svg">
+                            <p>Заметки</p>
+                        </div>
+                        <div class="block_of_buttons flex">
+                            <img src="assets/img/folder.svg">
+                            <p>Категории</p>
+                        </div>
+                        <div class="block_of_buttons flex" >
+                            <img src="assets/img/user.svg">
+                            <p>Пользователи</p>
+                        </div>
+                        <div class="block_of_buttons flex" >
+                            <img src="assets/img/stats.svg">
+                            <p>Статистика</p>
+                        </div>
+                        <div class="block_of_buttons flex" >
+                            <img src="assets/img/stars.svg">
+                            <p>Избранное</p>
+                        </div>
+                        <div class="block_of_buttons flex">
+                            <img src="assets/img/chat.svg">
+                            <p>Поддержка</p>
+                        </div>
+
+                        <div class="information flex">
+                            <p style="margin-left:22px;">Информация</p>
+                            <div class="block_of_buttons activated flex">
+                                <i class="fa-regular fa-circle-question"></i>
+                                <p>База знаний</p>
+                            </div>
+                            <div class="block_of_buttons flex">
+                                <img src="assets/img/medal.svg">
+                                <p>Обновления</p>
+                            </div>
+                        </div>
+                        <div class="information flex">
+                            <p style="margin-left:22px;">Информация</p>
+                            <div class="block_of_buttons flex">
+                                <img src="assets/img/users.svg">
+                                <p>Профиль</p>
+                            </div>
+                            <div class="block_of_buttons flex">
+                                <img src="assets/img/setting.svg">
+                                <p>Общие настройки</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right__content flex">
+                    <div class="profile__settings flex">
+                        <div class="back flex">
+                            <img src="assets/img/left-arrow.svg">                      
+                            <p>Назад</p>
+                        </div>
+                        <div class="settings__name flex">
+                            <p>Настройки профиля</p>
+                        </div>
+                        <div class="type__of__settings flex">
+                            <div id="profile-settings" class="block_with_buttons w-255 mt-0 flex">
+                                <div class="block_of_buttons activated flex">
+                                    <p class="settings__text">Первичная настройка</p>
+                                </div>
+                                <div class="block_of_buttons flex">
+                                    <p class="settings__text">Профиль пользователя</p>
+                                </div>
+                                <div class="block_of_buttons flex">
+                                    <p class="settings__text">Изменение общих настроек</p>
+                                </div>
+                                <div class="block_of_buttons flex">
+                                    <p class="settings__text">Дополнительные возможности</p>
+                                </div>
+                                <div class="block_of_buttons flex">
+                                    <p class="settings__text">Отправка запросов</p>
+                                </div>
+                                <div class="block_of_buttons flex">
+                                    <p class="settings__text">Работа со статистикой</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="all__information flex">
+                        <div class="info__about__settings flex">
+                            <div class="search search_inline flex">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <input class="form-control mr-sm-2" type="search" placeholder="Поиск....">
+                            </div>
+                            <div class="all__settings flex">
+                                <p class="first__settings">Первичная настройка</p>
+                                <p class="first__recomendations">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio facilis minima necessitatibus ducimus
+                                    illo sed quo deserunt excepturi sunt non enim inventore aliquam esse asperiores ea dolorem quibusdam labore quos facere iusto, obcaecati doloremque aliquid est.
+                                </p>
+                                <div class="recomendations__extra flex">
+                                    <p>Рекомендации:</p>
+                                    <p>Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Fugiat.</p>
+                                </div>
+                                <div class="recomendations__extra flex">
+                                    <p>Рекомендации:</p>
+                                    <p>1. Наведитесь на профиль Саши Смелой</p>
+                                    <p>2. Потыкайте кнопочки в боковом меню</p>
+                                    <p>3. Повзимодействуйте с Пунктами(Пункты ниже)</p>
+                                    <p>4. Попробуйте адаптив(перезагружать страницу необходимо, не успел пофиксить, для перехода в большое меню - жмите "Назад", для того, чтобы перейти на ту же страницу откуда вернулись - "База знаний")</p>
+                                    <p>5. Попробуйте понаводиться на элементы</p>
+                                </div>
+                                <div class="razdelitel__settings"></div>
+                                <p class="universal__settings">Первичная настройка</p>
+                                <p class="first__recomendations">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio facilis minima necessitatibus ducimus
+                                    illo sed quo deserunt excepturi sunt non enim inventore aliquam esse asperiores ea dolorem quibusdam labore quos facere iusto, obcaecati doloremque aliquid est.
+                                </p>
+                                <div class="numbers__settings flex">
+                                    <div class="setting__number flex">
+                                        <img src="assets/img/first.svg">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, doloribus, nulla. Soluta error repudiandae cumque veniam fugiat, voluptatem repellat provident, pariatur.</p>
+                                    </div>
+                                    <div class="setting__number flex">
+                                        <img src="assets/img/second.svg">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis harum delectus nemo iure praesentium amet, maxime veniam.</p>
+                                    </div>
+                                    <div class="setting__number flex">
+                                        <img src="assets/img/third.svg">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus aut nam earum! Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+                                <div class="razdelitel__settings"></div>
+                                <p class="universal__settings">Дополнительная информация</p>
+                                <div class="scroller__blocks">
+                                    <ul class="nav mb-3" id="pills-tab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link active" id="pills-item9-tab" data-bs-toggle="pill" data-bs-target="#pills-item9" type="link" role="tab" aria-controls="pills-home" aria-selected="true">Пункт 9</a>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link" id="pills-item10-tab" data-bs-toggle="pill" data-bs-target="#pills-item10" type="link" role="tab" aria-controls="pills-profile" aria-selected="false">Пункт 10</a>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link" id="pills-item11-tab" data-bs-toggle="pill" data-bs-target="#pills-item11" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Пункт 11</a>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content styled-tab" id="pills-tabContent">
+                                        <div class="tab-pane fade show m20 active" id="pills-item9" role="tabpanel" aria-labelledby="pills-home-tab">
+                                            <p>Пункт9 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam possimus hic ad facere, totam, blanditiis perferendis illum dolor quisquam, id porro magni saepe qui. Officiis necessitatibus ipsa esse delectus voluptatem?
+                                                Quia enim aut libero iste voluptates repellat consequuntur, ea maxime cumque quis, ut iusto vitae facere corporis, adipisci culpa aliquid eum in doloribus provident dolore reprehenderit illo pariatur! Ullam, quod!
+                                            </p>
+                                        </div>
+                                        <div class="tab-pane fade" id="pills-item10" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                            <p>
+                                            Пункт10 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam possimus hic ad facere, totam, blanditiis perferendis illum dolor quisquam, id porro magni saepe qui. Officiis necessitatibus ipsa esse delectus voluptatem?
+                                            Quia enim aut libero iste voluptates repellat consequuntur, ea maxime cumque quis, ut iusto vitae facere corporis, adipisci culpa aliquid eum in doloribus provident dolore reprehenderit illo pariatur! Ullam, quod!                                        
+                                            </p>
+                                        </div>
+                                        <div class="tab-pane fade" id="pills-item11" role="tabpanel" aria-labelledby="pills-contact-tab">
+                                            <p>
+                                            Пункт11 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam possimus hic ad facere, totam, blanditiis perferendis illum dolor quisquam, id porro magni saepe qui. Officiis necessitatibus ipsa esse delectus voluptatem?
+                                            Quia enim aut libero iste voluptates repellat consequuntur, ea maxime cumque quis, ut iusto vitae facere corporis, adipisci culpa aliquid eum in doloribus provident dolore reprehenderit illo pariatur! Ullam, quod!                                        
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="razdelitel__settings" style="margin-top:15px !important;"></div>
+                                <div class="dop__text flex">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio facilis minima necessitatibus ducimus illo
+                                        sed quo deserunt excepturi sunt non enim inventore aliquam esse asperiores ea dolorem quibusdam est.
+                                    </p>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, doloribus, nulla. Soluta error repudiandae cumque veniam fugiat.
+                                    </p>
+                                </div>
+                                <div class="dop__razdelitel"></div>
+                                <div class="did__you__like flex">
+                                    <p class="universal__settings">Вам помогла эта статья?</p>
+                                    <div class="answers flex">
+                                        <button>Да</button>
+                                        <button>Нет</button>
+                                    </div>
+                                    <p class="mark__post">50 людям помогла эта статья</p>
+                                </div>
+                            </div>
+                            <div class="blocks__join__us flex">
+                                <div class="join__us flex">
+                                    <h3>Сообщество GB</h3>
+                                    <p>Обращайтесь за помощью к членам сообщества, задавайте любые вопросы и получайте ответы.</p>
+                                    <a>Присоединиться к сообществу</a>
+                                </div>
+                                <div class="join__us flex">
+                                    <h3>GB Connect</h3>
+                                    <p>Пользуйтесь всеми возможностями GB. Пройдите регистрацию в GB Connect.</p>
+                                    <a>Регистрация</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <script src="assets/js/index.js"></script>
+        <script src="https://kit.fontawesome.com/1cf8b9fe5f.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    </body>
+</html>
